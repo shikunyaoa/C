@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\pointer">
+      <UniqueIdentifier>{c6122793-caa9-486d-a99f-2a77340a727d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\string">
+      <UniqueIdentifier>{ad6503d6-129a-4c31-b366-3e4ad025e08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\array">
+      <UniqueIdentifier>{b088e668-5c10-4f27-a0bd-81b31ed2a7f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\branch">
+      <UniqueIdentifier>{250f123d-99f6-4bc6-bd1c-a64176872a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\io">
+      <UniqueIdentifier>{70e39c71-b00e-482a-8b98-a53a44447b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\variable">
+      <UniqueIdentifier>{93446baf-3e41-4fc4-acd7-15d9decbfea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\function">
+      <UniqueIdentifier>{fc30b4fa-643d-42d8-b7f0-c44c1bf6ed00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\storage">
+      <UniqueIdentifier>{1971b84d-ecec-4b73-b73f-4437ce970e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\struct">
+      <UniqueIdentifier>{47cfe812-f51c-45b5-bab8-520518d5e426}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pointer1.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer2.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer3.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer4.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer5.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer6.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer7.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="strcat.c">
+      <Filter>源文件\string</Filter>
+    </ClCompile>
+    <ClCompile Include="strcmp.c">
+      <Filter>源文件\string</Filter>
+    </ClCompile>
+    <ClCompile Include="strcpy.c">
+      <Filter>源文件\string</Filter>
+    </ClCompile>
+    <ClCompile Include="strlen.c">
+      <Filter>源文件\string</Filter>
+    </ClCompile>
+    <ClCompile Include="strncpy.c">
+      <Filter>源文件\string</Filter>
+    </ClCompile>
+    <ClCompile Include="array.c">
+      <Filter>源文件\array</Filter>
+    </ClCompile>
+    <ClCompile Include="array_C99.c">
+      <Filter>源文件\array</Filter>
+    </ClCompile>
+    <ClCompile Include="continue.c">
+      <Filter>源文件\branch</Filter>
+    </ClCompile>
+    <ClCompile Include="for.c">
+      <Filter>源文件\branch</Filter>
+    </ClCompile>
+    <ClCompile Include="goto.c">
+      <Filter>源文件\branch</Filter>
+    </ClCompile>
+    <ClCompile Include="if.c">
+      <Filter>源文件\branch</Filter>
+    </ClCompile>
+    <ClCompile Include="while.c">
+      <Filter>源文件\branch</Filter>
+    </ClCompile>
+    <ClCompile Include="switch.c">
+      <Filter>源文件\branch</Filter>
+    </ClCompile>
+    <ClCompile Include="two_dimension.c">
+      <Filter>源文件\array</Filter>
+    </ClCompile>
+    <ClCompile Include="define.c">
+      <Filter>源文件\variable</Filter>
+    </ClCompile>
+    <ClCompile Include="multiplication.c">
+      <Filter>源文件\variable</Filter>
+    </ClCompile>
+    <ClCompile Include="sizeof.c">
+      <Filter>源文件\variable</Filter>
+    </ClCompile>
+    <ClCompile Include="unsigned.c">
+      <Filter>源文件\variable</Filter>
+    </ClCompile>
+    <ClCompile Include="getChar.c">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="EOF.c">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="fopen.c">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="showchar.c">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="lethead.c">
+      <Filter>源文件\function</Filter>
+    </ClCompile>
+    <ClCompile Include="binary.c">
+      <Filter>源文件\function</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer8.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer9.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="gets.c">
+      <Filter>源文件\string</Filter>
+    </ClCompile>
+    <ClCompile Include="block.c">
+      <Filter>源文件\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="pointerFunction.c">
+      <Filter>源文件\function</Filter>
+    </ClCompile>
+    <ClCompile Include="functionPointer.c">
+      <Filter>源文件\function</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_veriable.c">
+      <Filter>源文件\function</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_veriable2.c">
+      <Filter>源文件\function</Filter>
+    </ClCompile>
+    <ClCompile Include="extern.c">
+      <Filter>源文件\variable</Filter>
+    </ClCompile>
+    <ClCompile Include="register.c">
+      <Filter>源文件\variable</Filter>
+    </ClCompile>
+    <ClCompile Include="static.c">
+      <Filter>源文件\variable</Filter>
+    </ClCompile>
+    <ClCompile Include="dyn_arr.c">
+      <Filter>源文件\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="count.c">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="book.c">
+      <Filter>源文件\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="friends.c">
+      <Filter>源文件\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="funds.c">
+      <Filter>源文件\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="funds2.c">
+      <Filter>源文件\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="enum.c">
+      <Filter>源文件\struct</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
