@@ -40,6 +40,12 @@
     <Filter Include="源文件\struct">
       <UniqueIdentifier>{47cfe812-f51c-45b5-bab8-520518d5e426}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\basic">
+      <UniqueIdentifier>{2a371f71-4bae-4991-9ccb-5cce58d4f335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithm">
+      <UniqueIdentifier>{725166ca-27ba-4273-a31c-a6d90392f411}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pointer1.c">
@@ -188,6 +194,33 @@
     </ClCompile>
     <ClCompile Include="enum.c">
       <Filter>源文件\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWorld.c">
+      <Filter>源文件\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="dweight.c">
+      <Filter>源文件\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="celsius.c">
+      <Filter>源文件\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="testPrintf.c">
+      <Filter>源文件\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="tprintf.c">
+      <Filter>源文件\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="addfrac.c">
+      <Filter>源文件\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="broker.c">
+      <Filter>源文件\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="quick_sort.c">
+      <Filter>源文件\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="malloc.c">
+      <Filter>源文件\storage</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
