@@ -1,19 +1,15 @@
-﻿生成启动时间为 2020/1/19 19:35:52。
-     1>项目“D:\project\C\c-basic\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2020/1/22 19:34:00。
+     1>项目“D:\open-source\C\c-basic\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Build 个目标)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication1.vcxproj, c_basic2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt malloc.c
-         malloc.c
-     1>d:\project\c\c-basic\consoleapplication1\malloc.c(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
-     1>d:\project\c\c-basic\consoleapplication1\malloc.c(16): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
-     1>d:\project\c\c-basic\consoleapplication1\malloc.c(7): warning C4101: “i”: 未引用的局部变量
+         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt char_double.c
+         char_double.c
+     1>d:\open-source\c\c-basic\consoleapplication1\char_double.c(7): warning C4013: “gets”未定义；假设外部返回 int
        Link:
-         D:\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\project\C\c-basic\Debug\c_basic.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\project\C\c-basic\Debug\c_basic.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\project\C\c-basic\Debug\c_basic.lib" /MACHINE:X86 Debug\malloc.obj
-         ConsoleApplication1.vcxproj -> D:\project\C\c-basic\Debug\c_basic.exe
-     1>已完成生成项目“D:\project\C\c-basic\ConsoleApplication1\ConsoleApplication1.vcxproj”(Build 个目标)的操作。
+         D:\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\open-source\C\c-basic\Debug\c_basic.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\open-source\C\c-basic\Debug\c_basic.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\open-source\C\c-basic\Debug\c_basic.lib" /MACHINE:X86 Debug\char_double.obj
+         ConsoleApplication1.vcxproj -> D:\open-source\C\c-basic\Debug\c_basic.exe
+     1>已完成生成项目“D:\open-source\C\c-basic\ConsoleApplication1\ConsoleApplication1.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:04.73
+已用时间 00:00:05.10

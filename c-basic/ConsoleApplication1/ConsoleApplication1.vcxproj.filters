@@ -222,5 +222,8 @@
     <ClCompile Include="malloc.c">
       <Filter>源文件\storage</Filter>
     </ClCompile>
+    <ClCompile Include="char_double.c">
+      <Filter>源文件\basic</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
