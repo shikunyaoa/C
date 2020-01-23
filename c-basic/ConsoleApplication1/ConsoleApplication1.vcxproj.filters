@@ -225,5 +225,14 @@
     <ClCompile Include="char_double.c">
       <Filter>源文件\basic</Filter>
     </ClCompile>
+    <ClCompile Include="yang.c">
+      <Filter>源文件\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="tranfer.c">
+      <Filter>源文件\string</Filter>
+    </ClCompile>
+    <ClCompile Include="judgement.c">
+      <Filter>源文件\string</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
