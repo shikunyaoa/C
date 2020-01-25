@@ -46,6 +46,9 @@
     <Filter Include="源文件\algorithm">
       <UniqueIdentifier>{725166ca-27ba-4273-a31c-a6d90392f411}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\list">
+      <UniqueIdentifier>{da4dee5e-7971-40a9-a878-70d57dacbdee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pointer1.c">
@@ -233,6 +236,18 @@
     </ClCompile>
     <ClCompile Include="judgement.c">
       <Filter>源文件\string</Filter>
+    </ClCompile>
+    <ClCompile Include="list.c">
+      <Filter>源文件\list</Filter>
+    </ClCompile>
+    <ClCompile Include="whole_list.c">
+      <Filter>源文件\list</Filter>
+    </ClCompile>
+    <ClCompile Include="double_linked_list.c">
+      <Filter>源文件\list</Filter>
+    </ClCompile>
+    <ClCompile Include="list_prototype.c">
+      <Filter>源文件\list</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
