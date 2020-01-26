@@ -249,5 +249,23 @@
     <ClCompile Include="list_prototype.c">
       <Filter>源文件\list</Filter>
     </ClCompile>
+    <ClCompile Include="doc.c">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="fgetc.c">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="fputc.c">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="fprintf_fscanf.c">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="fread_fwrite.c">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="fseek.c">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

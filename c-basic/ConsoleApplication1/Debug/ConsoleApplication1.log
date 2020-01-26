@@ -1,22 +1,23 @@
-﻿生成启动时间为 2020/1/25 18:23:47。
+﻿生成启动时间为 2020/1/26 15:18:36。
      1>项目“D:\open-source\C\c-basic\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Build 个目标)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication1.vcxproj, c_basic2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt list_prototype.c
-         list_prototype.c
-     1>d:\open-source\c\c-basic\consoleapplication1\list_prototype.c(24): warning C4013: “exit”未定义；假设外部返回 int
-     1>d:\open-source\c\c-basic\consoleapplication1\list_prototype.c(26): warning C4013: “memset”未定义；假设外部返回 int
-     1>d:\open-source\c\c-basic\consoleapplication1\list_prototype.c(28): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt fprintf_fscanf.c
+         fprintf_fscanf.c
+     1>d:\open-source\c\c-basic\consoleapplication1\fprintf_fscanf.c(19): warning C4013: “getch”未定义；假设外部返回 int
+     1>d:\open-source\c\c-basic\consoleapplication1\fprintf_fscanf.c(20): warning C4013: “exit”未定义；假设外部返回 int
+     1>d:\open-source\c\c-basic\consoleapplication1\fprintf_fscanf.c(17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>d:\open-source\c\c-basic\consoleapplication1\fprintf_fscanf.c(25): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
-     1>d:\open-source\c\c-basic\consoleapplication1\list_prototype.c(44): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
-     1>d:\open-source\c\c-basic\consoleapplication1\list_prototype.c(149): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'int *'
-     1>d:\open-source\c\c-basic\consoleapplication1\list_prototype.c(253): warning C4013: “system”未定义；假设外部返回 int
+     1>d:\open-source\c\c-basic\consoleapplication1\fprintf_fscanf.c(33): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+     1>d:\open-source\c\c-basic\consoleapplication1\fprintf_fscanf.c(13): warning C4101: “ch”: 未引用的局部变量
        Link:
-         D:\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\open-source\C\c-basic\Debug\c_basic.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\open-source\C\c-basic\Debug\c_basic.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\open-source\C\c-basic\Debug\c_basic.lib" /MACHINE:X86 Debug\list_prototype.obj
+         D:\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\open-source\C\c-basic\Debug\c_basic.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\open-source\C\c-basic\Debug\c_basic.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\open-source\C\c-basic\Debug\c_basic.lib" /MACHINE:X86 Debug\fprintf_fscanf.obj
          ConsoleApplication1.vcxproj -> D:\open-source\C\c-basic\Debug\c_basic.exe
      1>已完成生成项目“D:\open-source\C\c-basic\ConsoleApplication1\ConsoleApplication1.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:01.29
+已用时间 00:00:01.48
