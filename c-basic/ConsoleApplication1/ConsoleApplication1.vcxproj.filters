@@ -49,6 +49,9 @@
     <Filter Include="源文件\list">
       <UniqueIdentifier>{da4dee5e-7971-40a9-a878-70d57dacbdee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\project">
+      <UniqueIdentifier>{dacf4a2e-df91-4d7e-8daa-919c994b43e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pointer1.c">
@@ -266,6 +269,27 @@
     </ClCompile>
     <ClCompile Include="fseek.c">
       <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="tetris.c">
+      <Filter>源文件\project</Filter>
+    </ClCompile>
+    <ClCompile Include="scanf.c">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="if最简单用法.c">
+      <Filter>源文件\branch</Filter>
+    </ClCompile>
+    <ClCompile Include="if的范围问题.c">
+      <Filter>源文件\branch</Filter>
+    </ClCompile>
+    <ClCompile Include="if-else的用法.c">
+      <Filter>源文件\branch</Filter>
+    </ClCompile>
+    <ClCompile Include="if-else if- else的用法.c">
+      <Filter>源文件\branch</Filter>
+    </ClCompile>
+    <ClCompile Include="for循环的用法.c">
+      <Filter>源文件\branch</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
