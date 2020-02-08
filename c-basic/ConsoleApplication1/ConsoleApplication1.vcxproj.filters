@@ -291,5 +291,53 @@
     <ClCompile Include="for循环的用法.c">
       <Filter>源文件\branch</Filter>
     </ClCompile>
+    <ClCompile Include="printf格式化输出函数.c">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="一维数组.c">
+      <Filter>源文件\array</Filter>
+    </ClCompile>
+    <ClCompile Include="将二维数组的行和列互换.c">
+      <Filter>源文件\array</Filter>
+    </ClCompile>
+    <ClCompile Include="字符数组的应用.c">
+      <Filter>源文件\array</Filter>
+    </ClCompile>
+    <ClCompile Include="基本函数的使用.c">
+      <Filter>源文件\function</Filter>
+    </ClCompile>
+    <ClCompile Include="递归调用函数计算阶乘.c">
+      <Filter>源文件\function</Filter>
+    </ClCompile>
+    <ClCompile Include="指针的基本使用.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="指针作为函数参数.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="使用指针引用数组元素.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="指向函数的指针.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="函数指针作为函数参数.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="指针函数的使用.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="指针数组的应用.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="malloc动态分配内存.c">
+      <Filter>源文件\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="结构体的初始化和引用.c">
+      <Filter>源文件\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="结构体数组.c">
+      <Filter>源文件\struct</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
