@@ -339,5 +339,32 @@
     <ClCompile Include="结构体数组.c">
       <Filter>源文件\struct</Filter>
     </ClCompile>
+    <ClCompile Include="结构体指针.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="指向结构体数组的指针.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="使用结构体变量的指针作为函数参数.c">
+      <Filter>源文件\pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="简单链表的使用.c">
+      <Filter>源文件\list</Filter>
+    </ClCompile>
+    <ClCompile Include="动态链表的使用.c">
+      <Filter>源文件\list</Filter>
+    </ClCompile>
+    <ClCompile Include="输出链表.c">
+      <Filter>源文件\list</Filter>
+    </ClCompile>
+    <ClCompile Include="共同体基本使用.c">
+      <Filter>源文件\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举类型的基本使用.c">
+      <Filter>源文件\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="time_h的应用.c">
+      <Filter>源文件\project</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
